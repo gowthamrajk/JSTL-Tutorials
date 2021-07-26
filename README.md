@@ -77,3 +77,6 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Syntax to include JSTL functions in JSP page is:
 
 ### <%@ taglib uri="https://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+
+
+# JSTL Core Tags 
