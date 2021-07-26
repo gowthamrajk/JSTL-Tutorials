@@ -63,3 +63,11 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Using JSTL SQL tags we can run database queries, we include these JSTL tags in JSP with below syntax:
 
 ### <%@ taglib uri="https://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+
+## JSTL XML Tags: 
+	
+- JSTL XML tags are used to work with XML documents such as parsing XML, transforming XML data and XPath expressions evaluation. 
+-Syntax to include JSTL XML tags in JSP page is:
+
+### <%@ taglib uri="https://java.sun.com/jsp/jstl/xml" prefix="x" %>
+
