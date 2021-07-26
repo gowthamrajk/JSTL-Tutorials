@@ -142,7 +142,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<sql:query>>
 - Executes the SQL query defined in its body or through the sql attribute.
 ## <<sql:update>>
-Executes the SQL update defined in its body or through the sql attribute.
+- Executes the SQL update defined in its body or through the sql attribute.
 ## <<sql:param>>
 Sets a parameter in an SQL statement to the specified value.
 ## <<sql:dateParam>>
