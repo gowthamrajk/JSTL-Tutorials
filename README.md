@@ -97,7 +97,8 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Simple conditional logic, used with EL and we can use it to process the exception from <c:catch>
 ### <c:choose>
 - Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <c:when> and <c:otherwise>
-### <c:when>	Subtag of <c:choose> that includes its body if its condition evalutes to ‘true’.
+### <c:when>
+- Subtag of <c:choose> that includes its body if its condition evalutes to ‘true’.
 ### <c:otherwise>	Subtag of <c:choose> that includes its body if its condition evalutes to ‘false’.
 ### <c:forEach>	for iteration over a collection
 ### <c:forTokens>	for iteration over tokens separated by a delimiter.
