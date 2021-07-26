@@ -110,7 +110,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <c:url>
 - To create a URL with optional query string parameters
 
-# Formatting Tags ⌛
+# JSTL Formatting Tags ⌛
 
 ### <<fmt:formatNumber>>
 - To render numerical value with specific precision or format.
@@ -135,7 +135,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:requestEncoding>>
 - Sets the request character encoding
 
-# SQL Tags ⏩
+# JSTL SQL Tags ⏩
 
 ## <<sql:setDataSource>>
 - Creates a simple DataSource suitable only for prototyping
@@ -150,7 +150,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<sql:transaction>>
 - Provides nested database action elements with a shared Connection, set up to execute all statements as one transaction.
 	
-# XML tags 📌
+# JSTL XML tags 📌
 
 ## <x:out>
 - Like <%= ... >, but for XPath expressions.
@@ -172,3 +172,5 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Applies an XSL transformation on a XML document
 ## <x:param >
 - Used along with the transform tag to set a parameter in the XSLT stylesheet
+
+# JSTL Function Tags ✔️
