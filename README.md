@@ -184,7 +184,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:escapeXml()>>
 - Escapes characters that can be interpreted as XML markup.
 ## <<fn:indexOf()>>
-Returns the index withing a string of the first occurrence of a specified substring.
+- Returns the index withing a string of the first occurrence of a specified substring.
 ## <<fn:join()>>
 Joins all elements of an array into a string.
 ## <<fn:length()>>
