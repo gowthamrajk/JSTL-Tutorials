@@ -71,3 +71,9 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 ### <%@ taglib uri="https://java.sun.com/jsp/jstl/xml" prefix="x" %>
 
+## STL Functions Tags: 
+	
+- JSTL tags provide a number of functions that we can use to perform common operation, most of them are for String manipulation such as String Concatenation, Split String etc. 
+- Syntax to include JSTL functions in JSP page is:
+
+### <%@ taglib uri="https://java.sun.com/jsp/jstl/functions" prefix="fn" %>
