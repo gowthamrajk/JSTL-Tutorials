@@ -127,7 +127,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:setBundle>>
 - Loads a resource bundle and stores it in the named scoped variable or the bundle configuration variable.
 ### <<fmt:timeZone>>
-Specifies the time zone for any time formatting or parsing actions nested in its body.
+- Specifies the time zone for any time formatting or parsing actions nested in its body.
 ### <<fmt:setTimeZone>>
 Stores the given time zone in the time zone configuration variable
 ### <<fmt:message>>
