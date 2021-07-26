@@ -186,7 +186,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:indexOf()>>
 - Returns the index withing a string of the first occurrence of a specified substring.
 ## <<fn:join()>>
-Joins all elements of an array into a string.
+- Joins all elements of an array into a string.
 ## <<fn:length()>>
 Returns the number of items in a collection, or the number of characters in a string.
 ## <<fn:replace()>>
