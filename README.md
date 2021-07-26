@@ -207,3 +207,9 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Converts all of the characters of a string to upper case.
 ## <<fn:trim()>>
 - Removes white spaces from both ends of a string.
+
+	
+<br><br>
+**For more queries, reach me through gowthamraj692@gmail.com or whatsapp @ 9698382306**
+
+<br>
