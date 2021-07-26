@@ -146,7 +146,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<sql:param>>
 - Sets a parameter in an SQL statement to the specified value.
 ## <<sql:dateParam>>
-Sets a parameter in an SQL statement to the specified java.util.Date value.
+- Sets a parameter in an SQL statement to the specified java.util.Date value.
 ## <<sql:transaction>>
 Provides nested database action elements with a shared Connection, set up to execute all statements as one transaction.
 	
