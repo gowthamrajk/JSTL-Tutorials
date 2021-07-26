@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<organisation>  
+<company>  
+<emp>  
+<name>Rajan Singh</name>  
+<designation>Bussiness Developer</designation>  
+<age>40</age>  
+</emp>  
+  
+<emp>  
+<name>Supriya Gaur</name>  
+<designation>HR Executive</designation>  
+<age>22</age>  
+</emp>  
+</company>  
+  
+<company>  
+<emp>  
+<name>Shashnak Singhal</name>  
+<designation>Sr. Java Programmer</designation>  
+<age>26</age>  
+</emp>  
+  
+<emp>  
+<name>Hemant Kishor</name>  
+<designation>Sr. PHP Programmer</designation>  
+<age>23</age>  
+</emp></company></organisation>  
