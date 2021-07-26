@@ -161,7 +161,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <x:if >
 - Evaluates a test XPath expression and if it is true, it processes its body. If the test condition is false, the body is ignored.
 ## <x:forEach>
-To loop over nodes in an XML document.
+- To loop over nodes in an XML document.
 ## <x:choose>
 Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <when> and <otherwise> tags.
 ## <x:when >
