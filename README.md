@@ -117,7 +117,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:parseNumber>>
 - Parses the string representation of a number, currency, or percentage.
 ### <<fmt:formatDate>>
-Formats a date and/or time using the supplied styles and pattern.
+- Formats a date and/or time using the supplied styles and pattern.
 ### <<fmt:parseDate>>
 Parses the string representation of a date and/or time
 ### <<fmt:bundle>>
