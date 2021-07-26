@@ -23,6 +23,6 @@ To use any of the libraries, you must include a <taglib> directive at the top of
   
 # Advantage of JSTL
   
-**1) Fast Development JSTL provides many tags that simplify the JSP.**
-**2) Code Reusability We can use the JSTL tags on various pages.**
-**3) No need to use scriptlet tag It avoids the use of scriptlet tag.**
+**- Fast Development JSTL provides many tags that simplify the JSP.**
+**- Code Reusability We can use the JSTL tags on various pages.**
+**- No need to use scriptlet tag It avoids the use of scriptlet tag.**
