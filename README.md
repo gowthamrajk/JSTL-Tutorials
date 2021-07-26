@@ -165,7 +165,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <x:choose>
 - Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <when> and <otherwise> tags.
 ## <x:when >
-Subtag of <choose> that includes its body if its expression evalutes to 'true'.
+- Subtag of <choose> that includes its body if its expression evalutes to 'true'.
 ## <x:otherwise >
 Subtag of <choose> that follows the <when> tags and runs only if all of the prior conditions evaluates to 'false'.
 ## <x:transform >
