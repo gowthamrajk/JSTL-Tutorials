@@ -55,7 +55,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - JSTL Formatting tags are provided for formatting of Numbers, Dates and i18n support through locales and resource bundles. 
 - We can include these jstl tags in JSP with below syntax:
 
-### <%@ taglib uri="https://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+    ### <%@ taglib uri="https://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 ## JSTL SQL Tags: 
 
