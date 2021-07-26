@@ -174,3 +174,51 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Used along with the transform tag to set a parameter in the XSLT stylesheet
 
 # JSTL Function Tags ✔️
+
+## fn:contains()
+Tests if an input string contains the specified substring.
+
+2	fn:containsIgnoreCase()
+Tests if an input string contains the specified substring in a case insensitive way.
+
+3	fn:endsWith()
+Tests if an input string ends with the specified suffix.
+
+4	fn:escapeXml()
+Escapes characters that can be interpreted as XML markup.
+
+5	fn:indexOf()
+Returns the index withing a string of the first occurrence of a specified substring.
+
+6	fn:join()
+Joins all elements of an array into a string.
+
+7	fn:length()
+Returns the number of items in a collection, or the number of characters in a string.
+
+8	fn:replace()
+Returns a string resulting from replacing in an input string all occurrences with a given string.
+
+9	fn:split()
+Splits a string into an array of substrings.
+
+10	fn:startsWith()
+Tests if an input string starts with the specified prefix.
+
+11	fn:substring()
+Returns a subset of a string.
+
+12	fn:substringAfter()
+Returns a subset of a string following a specific substring.
+
+13	fn:substringBefore()
+Returns a subset of a string before a specific substring.
+
+14	fn:toLowerCase()
+Converts all of the characters of a string to lower case.
+
+15	fn:toUpperCase()
+Converts all of the characters of a string to upper case.
+
+16	fn:trim()
+Removes white spaces from both ends of a string.
