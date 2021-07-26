@@ -112,7 +112,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 # Formatting Tags ⌛
 
-###  <fmt:formatNumber>
+### <<fmt:formatNumber>>
 - To render numerical value with specific precision or format.
 ### <fmt:parseNumber>
 - Parses the string representation of a number, currency, or percentage.
