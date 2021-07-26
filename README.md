@@ -153,7 +153,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 # XML tags 📌
 
 ## <x:out>
-Like <%= ... >, but for XPath expressions.
+- Like <%= ... >, but for XPath expressions.
 ## <x:parse>
 Used to parse the XML data specified either via an attribute or in the tag body.
 ## <x:set >
