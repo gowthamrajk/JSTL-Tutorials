@@ -157,7 +157,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <x:parse>
 - Used to parse the XML data specified either via an attribute or in the tag body.
 ## <x:set >
-Sets a variable to the value of an XPath expression.
+- Sets a variable to the value of an XPath expression.
 ## <x:if >
 Evaluates a test XPath expression and if it is true, it processes its body. If the test condition is false, the body is ignored.
 ## <x:forEach>
