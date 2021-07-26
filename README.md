@@ -202,8 +202,8 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:substringBefore()>>
 - Returns a subset of a string before a specific substring.
 ## <<fn:toLowerCase()>>
-Converts all of the characters of a string to lower case.
+- Converts all of the characters of a string to lower case.
 ## <<fn:toUpperCase()>>
-Converts all of the characters of a string to upper case.
+- Converts all of the characters of a string to upper case.
 ## <<fn:trim()>>
-Removes white spaces from both ends of a string.
+- Removes white spaces from both ends of a string.
