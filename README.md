@@ -121,7 +121,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:parseDate>>
 - Parses the string representation of a date and/or time
 ### <<fmt:bundle>>
-Loads a resource bundle to be used by its tag body.
+- Loads a resource bundle to be used by its tag body.
 ### <<fmt:setLocale>>
 Stores the given locale in the locale configuration variable.
 ### <<fmt:setBundle>>
