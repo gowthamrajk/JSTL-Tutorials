@@ -150,3 +150,4 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<sql:transaction>>
 - Provides nested database action elements with a shared Connection, set up to execute all statements as one transaction.
 	
+# XML tags 📌
