@@ -119,7 +119,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:formatDate>>
 - Formats a date and/or time using the supplied styles and pattern.
 ### <<fmt:parseDate>>
-Parses the string representation of a date and/or time
+- Parses the string representation of a date and/or time
 ### <<fmt:bundle>>
 Loads a resource bundle to be used by its tag body.
 ### <<fmt:setLocale>>
