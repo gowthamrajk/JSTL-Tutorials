@@ -1,5 +1,7 @@
 # JSTL-Tutorials ❤️
 
+![](https://img.shields.io/github/languages/count/CodeJamm/JUNIT-5_Basics)   ![](https://img.shields.io/github/languages/top/gowthamrajk/JUNIT-5_Basics)
+
 - This is my JSTL Tutorials created in-order to make you understand about different JSTL Tags used in JSP pages.
 
 # Introduction 👋
