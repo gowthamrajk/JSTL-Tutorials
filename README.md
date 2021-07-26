@@ -19,6 +19,19 @@
 
 ### Step 2 − To use the Standard Taglib from its Jakarta Taglibs distribution, simply copy the JAR files in the distribution's 'lib' directory to your application's webapps\ROOT\WEB-INF\lib directory.
 
+**[Note: If you are creating a Maven Project, use the following dependency to add JSTL Jar files]**
+
+      <dependency>
+	      <groupId>jstl</groupId>
+	      <artifactId>jstl</artifactId>
+	      <version>1.2</version>
+      </dependency>
+      <dependency>
+	      <groupId>taglibs</groupId>
+	      <artifactId>standard</artifactId>
+	      <version>1.1.2</version>
+      </dependency>
+      
 To use any of the libraries, you must include a <taglib> directive at the top of each JSP that uses the library.
   
 # Advantage of JSTL
