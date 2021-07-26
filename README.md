@@ -81,7 +81,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 # JSTL Core Tags ⌚
 
-### <c:out> - To write something in JSP page, we can use EL also with this tag
+### <c:out> - **To write something in JSP page, we can use EL also with this tag**
 ### <c:import> - Same as <jsp:include> or include directive
 <c:redirect>	redirect request to another resource
 <c:set>	To set the variable value in given scope.
