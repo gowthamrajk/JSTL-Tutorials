@@ -48,3 +48,10 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - To use JSTL core tags, we should include it in the JSP page like below.
 
 ### <%@ taglib uri="https://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+## JSTL Formatting and Localisation Tags: 
+
+- JSTL Formatting tags are provided for formatting of Numbers, Dates and i18n support through locales and resource bundles. 
+- We can include these jstl tags in JSP with below syntax:
+
+### <%@ taglib uri="https://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
