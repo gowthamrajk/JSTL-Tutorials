@@ -15,6 +15,8 @@
 
 ### Step 1 − Download the binary distribution from Apache Standard Taglib and unpack the compressed file.
 
+**Download JAR Files here : [JSTL JAR 1.2](https://tomcat.apache.org/taglibs/standard/)**
+
 ### Step 2 − To use the Standard Taglib from its Jakarta Taglibs distribution, simply copy the JAR files in the distribution's 'lib' directory to your application's webapps\ROOT\WEB-INF\lib directory.
 
 To use any of the libraries, you must include a <taglib> directive at the top of each JSP that uses the library.
