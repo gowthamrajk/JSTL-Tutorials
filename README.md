@@ -139,14 +139,14 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 ## <<sql:setDataSource>>
 Creates a simple DataSource suitable only for prototyping
-## <<sql:query>
+## <<sql:query>>
 Executes the SQL query defined in its body or through the sql attribute.
-## <<sql:update>
+## <<sql:update>>
 Executes the SQL update defined in its body or through the sql attribute.
-## <<sql:param>
+## <<sql:param>>
 Sets a parameter in an SQL statement to the specified value.
-## <<sql:dateParam>
+## <<sql:dateParam>>
 Sets a parameter in an SQL statement to the specified java.util.Date value.
-## <<sql:transaction >
+## <<sql:transaction>>
 Provides nested database action elements with a shared Connection, set up to execute all statements as one transaction.
 	
