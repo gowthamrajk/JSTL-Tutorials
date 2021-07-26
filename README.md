@@ -138,7 +138,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 # SQL Tags ⏩
 
 ## <<sql:setDataSource>>
-Creates a simple DataSource suitable only for prototyping
+- Creates a simple DataSource suitable only for prototyping
 ## <<sql:query>>
 Executes the SQL query defined in its body or through the sql attribute.
 ## <<sql:update>>
