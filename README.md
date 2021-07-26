@@ -151,3 +151,33 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - Provides nested database action elements with a shared Connection, set up to execute all statements as one transaction.
 	
 # XML tags 📌
+
+## <x:out>
+Like <%= ... >, but for XPath expressions.
+
+2	<x:parse>
+Used to parse the XML data specified either via an attribute or in the tag body.
+
+3	<x:set >
+Sets a variable to the value of an XPath expression.
+
+4	<x:if >
+Evaluates a test XPath expression and if it is true, it processes its body. If the test condition is false, the body is ignored.
+
+5	<x:forEach>
+To loop over nodes in an XML document.
+
+6	<x:choose>
+Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <when> and <otherwise> tags.
+
+7	<x:when >
+Subtag of <choose> that includes its body if its expression evalutes to 'true'.
+
+8	<x:otherwise >
+Subtag of <choose> that follows the <when> tags and runs only if all of the prior conditions evaluates to 'false'.
+
+9	<x:transform >
+Applies an XSL transformation on a XML document
+
+10	<x:param >
+Used along with the transform tag to set a parameter in the XSLT stylesheet
