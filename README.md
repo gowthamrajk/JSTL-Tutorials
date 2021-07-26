@@ -111,3 +111,26 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - To create a URL with optional query string parameters
 
 # Formatting Tags ⌛
+
+### <fmt:formatNumber>
+- To render numerical value with specific precision or format.
+### <fmt:parseNumber>
+Parses the string representation of a number, currency, or percentage.
+### <fmt:formatDate>
+Formats a date and/or time using the supplied styles and pattern.
+### <fmt:parseDate>
+Parses the string representation of a date and/or time
+### <fmt:bundle>
+Loads a resource bundle to be used by its tag body.
+### <fmt:setLocale>
+Stores the given locale in the locale configuration variable.
+### <fmt:setBundle>
+Loads a resource bundle and stores it in the named scoped variable or the bundle configuration variable.
+### <fmt:timeZone>
+Specifies the time zone for any time formatting or parsing actions nested in its body.
+### <fmt:setTimeZone>
+Stores the given time zone in the time zone configuration variable
+### <fmt:message>
+Displays an internationalized message.
+### <fmt:requestEncoding>
+Sets the request character encoding
