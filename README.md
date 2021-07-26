@@ -32,6 +32,7 @@
 	      <version>1.1.2</version>
       </dependency>
       
+
 To use any of the libraries, you must include a <taglib> directive at the top of each JSP that uses the library.
   
 # Advantage of JSTL 😄
