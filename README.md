@@ -107,4 +107,5 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - for iteration over tokens separated by a delimiter.
 ### <c:param>
 - used with <c:import> to pass parameters
-<c:url>	to create a URL with optional query string parameters
+<c:url>
+- To create a URL with optional query string parameters
