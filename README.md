@@ -152,23 +152,23 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 	
 # XML tags 📌
 
-## <<x:out>
+## <x:out>
 Like <%= ... >, but for XPath expressions.
 ## <x:parse>
 Used to parse the XML data specified either via an attribute or in the tag body.
-## <<x:set >
+## <x:set >
 Sets a variable to the value of an XPath expression.
-## <<x:if >
+## <x:if >
 Evaluates a test XPath expression and if it is true, it processes its body. If the test condition is false, the body is ignored.
-## <<x:forEach>
+## <x:forEach>
 To loop over nodes in an XML document.
-## <<x:choose>
+## <x:choose>
 Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <when> and <otherwise> tags.
-## <<x:when >
+## <x:when >
 Subtag of <choose> that includes its body if its expression evalutes to 'true'.
-## <<x:otherwise >
+## <x:otherwise >
 Subtag of <choose> that follows the <when> tags and runs only if all of the prior conditions evaluates to 'false'.
-## <<x:transform >
+## <x:transform >
 Applies an XSL transformation on a XML document
-## <<x:param >
+## <x:param >
 Used along with the transform tag to set a parameter in the XSLT stylesheet
