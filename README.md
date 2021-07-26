@@ -222,7 +222,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 <br>
 
-## Organization Created & Maintained By 
+## Tutorials Created & Maintained By 
 
 # ![](https://img.shields.io/static/v1?style=for-the-badge&message=Gowthamraj+K&color=007396&label=) 😄
 
