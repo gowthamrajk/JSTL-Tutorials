@@ -167,7 +167,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <x:when >
 - Subtag of <choose> that includes its body if its expression evalutes to 'true'.
 ## <x:otherwise >
-Subtag of <choose> that follows the <when> tags and runs only if all of the prior conditions evaluates to 'false'.
+- Subtag of <choose> that follows the <when> tags and runs only if all of the prior conditions evaluates to 'false'.
 ## <x:transform >
 Applies an XSL transformation on a XML document
 ## <x:param >
