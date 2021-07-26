@@ -91,7 +91,8 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - To set the variable value in given scope.
 ### <c:remove>
 - To remove the variable from given scope
-### <c:catch>	To catch the exception and wrap it into an object.
+### <c:catch>
+- To catch the exception and wrap it into an object.
 ### <c:if>	Simple conditional logic, used with EL and we can use it to process the exception from <c:catch>
 ### <c:choose>	Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <c:when> and <c:otherwise>
 ### <c:when>	Subtag of <c:choose> that includes its body if its condition evalutes to ‘true’.
