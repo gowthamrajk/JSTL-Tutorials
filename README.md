@@ -178,7 +178,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:contains()>>
 - Tests if an input string contains the specified substring.
 ## <<fn:containsIgnoreCase()>>
-Tests if an input string contains the specified substring in a case insensitive way.
+- Tests if an input string contains the specified substring in a case insensitive way.
 ## <<fn:endsWith()>>
 Tests if an input string ends with the specified suffix.
 ## <<fn:escapeXml()>>
