@@ -169,6 +169,6 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <x:otherwise >
 - Subtag of <choose> that follows the <when> tags and runs only if all of the prior conditions evaluates to 'false'.
 ## <x:transform >
-Applies an XSL transformation on a XML document
+- Applies an XSL transformation on a XML document
 ## <x:param >
 Used along with the transform tag to set a parameter in the XSLT stylesheet
