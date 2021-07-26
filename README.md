@@ -190,11 +190,11 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:length()>>
 - Returns the number of items in a collection, or the number of characters in a string.
 ## <<fn:replace()>>
-Returns a string resulting from replacing in an input string all occurrences with a given string.
+- Returns a string resulting from replacing in an input string all occurrences with a given string.
 ## <<fn:split()>>
-Splits a string into an array of substrings.
+- Splits a string into an array of substrings.
 ## <<fn:startsWith()>>
-Tests if an input string starts with the specified prefix.
+- Tests if an input string starts with the specified prefix.
 ## <<fn:substring()>>
 Returns a subset of a string.
 ## <<fn:substringAfter()>>
