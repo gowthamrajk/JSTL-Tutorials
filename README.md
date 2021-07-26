@@ -175,7 +175,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 # JSTL Function Tags ✔️
 
-## fn:contains()
+## <fn:contains()>
 Tests if an input string contains the specified substring.
 
 2	fn:containsIgnoreCase()
