@@ -123,7 +123,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:bundle>>
 - Loads a resource bundle to be used by its tag body.
 ### <<fmt:setLocale>>
-Stores the given locale in the locale configuration variable.
+- Stores the given locale in the locale configuration variable.
 ### <<fmt:setBundle>>
 Loads a resource bundle and stores it in the named scoped variable or the bundle configuration variable.
 ### <<fmt:timeZone>>
