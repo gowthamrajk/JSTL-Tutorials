@@ -196,11 +196,11 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:startsWith()>>
 - Tests if an input string starts with the specified prefix.
 ## <<fn:substring()>>
-Returns a subset of a string.
+- Returns a subset of a string.
 ## <<fn:substringAfter()>>
-Returns a subset of a string following a specific substring.
+- Returns a subset of a string following a specific substring.
 ## <<fn:substringBefore()>>
-Returns a subset of a string before a specific substring.
+- Returns a subset of a string before a specific substring.
 ## <<fn:toLowerCase()>>
 Converts all of the characters of a string to lower case.
 ## <<fn:toUpperCase()>>
