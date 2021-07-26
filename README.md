@@ -56,3 +56,10 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - We can include these jstl tags in JSP with below syntax:
 
 ### <%@ taglib uri="https://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+
+## JSTL SQL Tags: 
+
+- JSTL SQL Tags provide support for interaction with relational databases such as Oracle, MySql etc. 
+- Using JSTL SQL tags we can run database queries, we include these JSTL tags in JSP with below syntax:
+
+### <%@ taglib uri="https://java.sun.com/jsp/jstl/sql" prefix="sql" %>
