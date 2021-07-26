@@ -182,7 +182,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:endsWith()>>
 - Tests if an input string ends with the specified suffix.
 ## <<fn:escapeXml()>>
-Escapes characters that can be interpreted as XML markup.
+- Escapes characters that can be interpreted as XML markup.
 ## <<fn:indexOf()>>
 Returns the index withing a string of the first occurrence of a specified substring.
 ## <<fn:join()>>
