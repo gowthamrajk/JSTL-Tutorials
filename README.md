@@ -47,4 +47,4 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - JSTL Core tags provide support for iteration, conditional logic, catch exception, url, forward or redirect response etc. 
 - To use JSTL core tags, we should include it in the JSP page like below.
 
-	<%@ taglib uri="https://java.sun.com/jsp/jstl/core" prefix="c" %>
+### <%@ taglib uri="https://java.sun.com/jsp/jstl/core" prefix="c" %>
