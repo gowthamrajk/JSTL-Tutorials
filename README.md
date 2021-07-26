@@ -177,33 +177,33 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 
 ## <<fn:contains()>>
 Tests if an input string contains the specified substring.
-## <<fn:containsIgnoreCase()
+## <<fn:containsIgnoreCase()>>
 Tests if an input string contains the specified substring in a case insensitive way.
-## <<fn:endsWith()
+## <<fn:endsWith()>>
 Tests if an input string ends with the specified suffix.
-## <<fn:escapeXml()
+## <<fn:escapeXml()>>
 Escapes characters that can be interpreted as XML markup.
-## <<fn:indexOf()
+## <<fn:indexOf()>>
 Returns the index withing a string of the first occurrence of a specified substring.
-## <<fn:join()
+## <<fn:join()>>
 Joins all elements of an array into a string.
-## <<fn:length()
+## <<fn:length()>>
 Returns the number of items in a collection, or the number of characters in a string.
-## <<fn:replace()
+## <<fn:replace()>>
 Returns a string resulting from replacing in an input string all occurrences with a given string.
-## <<fn:split()
+## <<fn:split()>>
 Splits a string into an array of substrings.
-## <<fn:startsWith()
+## <<fn:startsWith()>>
 Tests if an input string starts with the specified prefix.
-## <<fn:substring()
+## <<fn:substring()>>
 Returns a subset of a string.
-## <<fn:substringAfter()
+## <<fn:substringAfter()>>
 Returns a subset of a string following a specific substring.
-## <<fn:substringBefore()
+## <<fn:substringBefore()>>
 Returns a subset of a string before a specific substring.
-## <<fn:toLowerCase()
+## <<fn:toLowerCase()>>
 Converts all of the characters of a string to lower case.
-## <<fn:toUpperCase()
+## <<fn:toUpperCase()>>
 Converts all of the characters of a string to upper case.
-## <<fn:trim()
+## <<fn:trim()>>
 Removes white spaces from both ends of a string.
