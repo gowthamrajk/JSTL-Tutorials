@@ -40,3 +40,4 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 - **Code Reusability** - We can use the JSTL tags on various pages
 - **No need to use scriptlet tag** - It avoids the use of scriptlet tag
 	
+# JSTL Tags 
