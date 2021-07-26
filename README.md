@@ -133,4 +133,4 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ### <<fmt:message>>
 - Displays an internationalized message.
 ### <<fmt:requestEncoding>>
-Sets the request character encoding
+- Sets the request character encoding
