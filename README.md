@@ -34,7 +34,7 @@
       
 To use any of the libraries, you must include a <taglib> directive at the top of each JSP that uses the library.
   
-# Advantage of JSTL
+# Advantage of JSTL 😄
   
 - **Fast Development** - JSTL provides many tags that simplify the JSP
 - **Code Reusability** - We can use the JSTL tags on various pages
