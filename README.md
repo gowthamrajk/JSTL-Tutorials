@@ -180,7 +180,7 @@ To use any of the libraries, you must include a <taglib> directive at the top of
 ## <<fn:containsIgnoreCase()>>
 - Tests if an input string contains the specified substring in a case insensitive way.
 ## <<fn:endsWith()>>
-Tests if an input string ends with the specified suffix.
+- Tests if an input string ends with the specified suffix.
 ## <<fn:escapeXml()>>
 Escapes characters that can be interpreted as XML markup.
 ## <<fn:indexOf()>>
