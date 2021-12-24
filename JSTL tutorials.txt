@@ -1,0 +1,131 @@
+
+JSTL (JSP Standard Tag Libraries)
+
+- It is a collection of JSP custom tags developed by java community process, www.jcp.org. 
+- Full JSTL contains many common and useful JSP custom tags, particulary used for MVC projects, 
+  based on struts looping and logic tags, not part of the jsp 1.2,2.0 & 2.1
+- It allows to use JSP custom tags rather using scriplet code that most JSP programmers are not preferred.
+- It encapsulates core functionalities common to many jsp applications.
+- It supports for common, structural tasks such as iteration, conditionals, tags for manipulating xml docs,
+  internationalization tags, sql tags. 
+
+1) Core Tags => looping, expression evaluation, basic input and output, etc...
+2) Formatting Tags => used to parse data such as dates, etc...
+3) SQL tags => enables tags for database access
+4) XML tags => can be used to access XML elements
+5) JSTL functions => standard functions used mostly for string manipulation
+
+
+CORE TAGS : 
+
+<%@ tagib prefic = "c" uri = "http://java.sun.com/jsp.jstl.core" %>
+
+<c:out>  =>  used for displaying things
+<c:set>  =>  set the result of an expression 
+<c:remove>  =>  removes a scope variable
+<c:catch>  =>  catch any exceptions that occur in its body
+<c:if>  =>  conditional tag
+<c:choose>  =>  conditional tag for mutually exclusive conditional operations using <c:when> and <c:otherwise>
+<c:when>  =>  sub tag of <c:choose> which evaluates condition to true
+<c:otherwise>  =>  sub tag of <c:choose> that follows <c:when> which runs only when previos condition are false
+<c:import>  =>  retreives an absolute or relative url 
+<c:forEach>  =>  used for Iteration 
+<c:forTokens>  =>  Itearates over tokens
+<c:param>  =>  adds a parameter to a containing import tag's url
+<c:redirect>  =>  redirects to a new url
+<c:url>  =>  creates a url with optional query parameters
+
+
+FORMATTING TAGS : 
+
+<%@ tagib prefic = "fmt" uri = "http://java.sun.com/jsp.jstl.fmt" %>
+
+<fmt:formatNumber>  =>  to render numeric value with specific precision or format
+<fmt:parseNumber>  =>  parse string to number
+<fmt:formatDate>  =>  formats date/time using given pattern or style
+<fmt:parseDate>  =>  parses string representation of date/time
+<fmt:bundle>  =>  loads a resource bundle to be used by its tag body
+<fmt:setLocale>  =>  stores the given locale in the locale configuration variable
+<fmt:setBundle>  =>  loads a resource bundle and stores it in the named scope variable
+<fmt:timeZone>  =>  specifies the timezone for any time formatting 
+<fmt:setTimeZone>  =>  stores the given time zone 
+<fmt:message>  =>  to display an internationalized message
+<fmt:requestEncoding>  =>  sets the request character encoding
+
+
+SQL TAGS : 
+
+<%@ tagib prefic = "sql" uri = "http://java.sun.com/jsp.jstl.sql" %>
+
+<sql:setDataSource>  =>  creates a simple data source suitable only for prototyping
+<sql:query>  =>  executes the sql query defined in its body or the sql attribute
+<sql:update>  =>  executes the sql update query defined in its body or the sql attribute
+<sql:param>  =>  sets a parameter in an sql statement to the specific value
+<sql:dateParam>  =>  sets a parameter in an sql statement to the specific java.util.Date value
+<sql:transaction>  =>  provides nested database action elements with a shared connection
+
+
+XML TAGS : 
+
+<%@ tagib prefic = "x" uri = "http://java.sun.com/jsp.jstl.xml" %>
+
+<x:out>  =>  like <%= ... %>, but for Xpath expressions
+<x:parse>  =>  use to parse xml data specified
+<x:set>  =>  sets a variable to the value of a Xpath expression
+<x:if>  =>  evaluates a test Xpath expression and if it is true, it processits body. else it's ignored
+<x:forEach>  =>  to loop over nodes in an XML document
+<x:choose>  =>  simple conditional tag
+<x:when>  =>  sub tag of <choose> which evaluates condition to true
+<x:otherwise>  =>  sub tag of <choose> that follows <when> which runs only when previos condition are false 
+<x:transform>  =>  applies an XSL transformation on a XML document
+<x:param>  =>  use along with the transaform tag to set a parameter in the XSLT stylesheet
+
+
+JSTL FUNCTIONS : 
+
+<%@ tagib prefic = "fn" uri = "http://java.sun.com/jsp.jstl.functions" %>
+
+fn:contains()  =>  Tests if input string contains specified substring or not
+fn:containsIgnoreCase()  =>  Tests if input string contains specified substring or not ignoring cases
+fn:endsWith()  =>  Tests if input string endswith the specified suffix
+fn:escapeXml()  =>  escapes character that could be interpreted as XML
+fn:indexOf()  =>  returns the index within a string of the first occurance 
+fn:join()  =>  joins all elements of an array into a string
+fn:length()  =>  returns the number of items in a collection or characters in a string
+fn:replace  =>  returns string resulting from replacing in an input string all occurances with a given string
+fn:split()  =>  splits a string into an array of substrings
+
+
+EL Expression Language : 
+
+- mentioned by using ${..}
+
+eg: ${SessionScope.attribute_name}
+
+
+
+Examples using JSTL : 
+
+1) counting 1-10 : (using scriplet)
+
+<html>
+<body>
+  <% for(int i=1;i<=10;i++) { %>
+     <%= i %>
+     <br>
+  <% } %>
+</body>
+</html>
+
+2) counting 1-10 : (using JSTL)
+
+<html>
+<body>
+  <c:forEach var="i" begin="1" end="10" step="1">
+    <c:out value="${i}"/>
+    <br>
+  </c:forEach>
+</body>
+</html>
+
+
